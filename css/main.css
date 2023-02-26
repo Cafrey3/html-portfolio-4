@@ -405,6 +405,7 @@
     margin-top: 20px;
     background-color: #272727;
     color: #ffffff;
+    overflow: hidden;
 }
 
 .social h2 {
@@ -416,11 +417,22 @@
     padding: 100px 0 80px 100px;
 }
 
-.slide_img__fourth img{
+.fourth_img img{
     width: 400px;
     height: 400px;
 }
-.slide_img__fifth img {
-    width: 400px;
+.fifth_img img {
+    max-width: 400px;
     height: 400px;
+}
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img {
+    max-width: 100%;
+}
+.image-slider {
+    padding: 30px 0 70px 0;
 }
